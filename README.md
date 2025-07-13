@@ -1,0 +1,4 @@
+## Kurulumm
+
+-mongoose
+-stripe
