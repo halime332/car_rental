@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CiSearch } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
+import { RiSettingsFill } from "react-icons/ri";
 
 
 const Header = () => {
@@ -18,9 +19,17 @@ const Header = () => {
       <input type="text" placeholder="Bir marka aratın" className="outline-none text-zinc-800"/>
       </form>
 
-      <div>
-        <div>
-          <FaHeart className=""/>
+      <div className="flex items-center gap-3">
+        <div className="icon  max-sm:hidden">
+          <FaHeart className=" flex item-center"/>
+        </div>
+
+        <div className="icon max-sm:hidden">
+          <FaHeart className="text-black flex item-center"/>
+        </div>
+
+        <div className="icon text-lg">
+          <RiSettingsFill/>
         </div>
       </div>
     </header>
