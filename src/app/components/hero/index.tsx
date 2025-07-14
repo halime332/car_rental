@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <div className="lg:grid lg.grid-cols-2  lg:gap-5">
-      <div className="p-6 rounded-lg bg-[url('/bg-1.png')] bg-center bg-cover">
+      <div className="p-6 rounded-lg bg-[url('/bg-1.png')] bg-center bg-cover bg-no-repeat">
         <h1 className="text-black font-semibold">Araç Kiralama için <br/>En İyi Platform
         </h1>
         <p className="my-3 text-black">Güvenli ve güvenilir bir şekilde araç kiralama yapmanın kolay.
