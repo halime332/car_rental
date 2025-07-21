@@ -36,7 +36,7 @@ export default function RootLayout({
           </main>
 
           </div>
-          <main className="bg-light-gray flex-1">{children}</main>
+      
         </div>
       </body>
     </html>

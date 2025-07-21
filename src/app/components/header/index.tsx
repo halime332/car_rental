@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CiSearch } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
 import { RiSettingsFill } from "react-icons/ri";
+import { HiCurrencyDollar } from "react-icons/hi2";
 
 
 const Header = () => {
@@ -25,12 +26,12 @@ const Header = () => {
         </div>
 
         <div className="icon max-sm:hidden">
-          <FaHeart className="text-black flex item-center"/>
+          <RiSettingsFill className=" flex item-center"/>
         </div>
 
-        <div className="icon text-lg">
-          <RiSettingsFill/>
-        </div>
+        <Link href="/orders" className="icon text-lg">
+          <HiCurrencyDollar />
+        </Link>
       </div>
     </header>
   )
